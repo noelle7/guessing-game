@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Guessing Game Challenge: https://lets-code.ca/guessing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using React, Redux & CSS
 
 ## Available Scripts
 
