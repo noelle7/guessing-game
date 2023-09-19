@@ -1,14 +1,15 @@
-import "./App.css";
-import Welcome from "./components/Welcome/Welcome";
-import Gameinstruction from "./components/Gameinstruction";
-import Response from "./components/Response";
+import './App.css';
+import Welcome from './pages/Welcome/Welcome';
+import Gameinstruction from './components/Gameinstruction';
+import Response from './components/Response';
 
 function App() {
-	return (
-		<div className="App">
-			<Welcome />
-		</div>
-	);
+  return (
+    <div className='App'>
+      <Welcome />
+      <Gameinstruction />
+    </div>
+  );
 }
 
 export default App;
