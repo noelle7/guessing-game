@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setInputValue } from '../features/inputSlice';
 
 function Input() {
-  const input = useSelector((store) => store.input);
+  const input = useSelector((store) => store.input.value);
 
   const dispatch = useDispatch();
 
@@ -14,18 +14,18 @@ function Input() {
 
   const handleSubmit = (e) => {
 	e.preventDefault()
-	
+
   }
 
   return (
     <>
-	<h1>{input.value}</h1>
+	<h1>{input}</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Enter your Name:
           <input
             type='text'
-            value={input.value}
+            value={input}
             onChange={handleInputValue}
           ></input>
         </label>

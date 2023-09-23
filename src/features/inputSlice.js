@@ -9,7 +9,6 @@ const inputSlice = createSlice({
     initialState,
     reducers:{
         setInputValue: (state, action) => {
-       
             state.value = action.payload;
         }
     }
